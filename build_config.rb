@@ -117,6 +117,10 @@ MRuby::Build.new do |conf|
 
   # Use mruby-ckb-ext to extend ckb related functions
   conf.gem :github => "keroro520/mruby-ckb-ext"
+
+  conf.gem :github => "u2/mruby-sha3"
+
+  conf.gem :github => "u2/mruby-rlp"
 end
 
 MRuby::Build.new('riscv-gcc-spike') do |conf|
@@ -220,6 +224,10 @@ MRuby::Build.new('riscv-gcc-spike') do |conf|
 
   # Use mruby-ckb-ext to extend ckb related functions
   conf.gem :github => "keroro520/mruby-ckb-ext"
+
+  conf.gem :github => "u2/mruby-sha3"
+
+  conf.gem :github => "u2/mruby-rlp"
 end
 
 MRuby::Build.new('riscv-gcc') do |conf|
@@ -290,4 +298,8 @@ MRuby::Build.new('riscv-gcc') do |conf|
 
   # Use mruby-ckb-ext to extend ckb related functions
   conf.gem :github => "keroro520/mruby-ckb-ext"
+
+  conf.gem :github => "u2/mruby-sha3"
+
+  conf.gem :github => "u2/mruby-rlp"
 end
